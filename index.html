@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* 👈 콘텐츠가 넘치면 스크롤 가능 */
+  background: linear-gradient(to bottom, #2A4037 0%, #242424 36%);
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: start; /* 👈 상단 정렬 (scale 때문) */
+  width: 100%;
+  min-height: 100%;
+  padding: 40px 0; /* 👈 스케일 여유 공간 */
+  box-sizing: border-box;
+}
+
+.frame .div {
+  width: 100%;
+  max-width: 393px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 1024px) {
+  .frame .div {
+    transform: scale(1.5);
+    transform-origin: top center;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .frame .div {
+    transform: scale(1.2);
+    transform-origin: top center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .frame .div {
+    transform: scale(1);
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="div">
+        <div class="overlap-group">
+          <div class="rectangle"></div>
+          <img class="img" src="img/Rectangle 2.png" />
+          <div class="text-wrapper">Hare</div>
+          <div class="text-wrapper-2">@hackerharekr</div>
+          <p class="daegu-univ-STAR">
+            <span class="span">🎓</span>
+            <span class="text-wrapper-3">Daegu Univ. STAR Infosec 10/11th</span>
+          </p>
+          <p class="security-researcher">
+            <span class="span">🧪</span>
+            <span class="text-wrapper-3">Security Researcher</span>
+          </p>
+          <p class="element">
+            <span class="span">🎂</span>
+            <span class="text-wrapper-3">2010.02.22</span>
+          </p>
+          <div class="text-wrapper-4">💝Team Jamong</div>
+        </div>
+        <a href="https://github.com/hackerharekr" target="_blank">
+            <div class="overlap">
+            <img class="image" src="img/image 1.png" />
+            <div class="text-wrapper-5">Github</div>
+            <div class="text-wrapper-6">@hackerharekr</div>
+            </div>
+        </a>
+        <a href="https://instagram.com/hackerharekr" target="_blank">
+            <div class="overlap-2">
+            <div class="overlap-3">
+                <div class="text-wrapper-7">Instagram</div>
+                <div class="text-wrapper-8">@hackerharekr</div>
+                <img class="image-2" src="img/image 3.png" />
+            </div>
+            <div class="overlap-4">
+                <div class="rectangle-2"></div>
+                <div class="text-wrapper-9">Follow Now</div>
+            </div>
+            </div>
+        </a>
+        <div class="overlap-5">
+          <div class="rectangle-3"></div>
+          <div class="text-wrapper-10">Discord</div>
+          <div class="text-wrapper-11">@hackerharekr</div>
+          <img class="image-3" src="img/image 2.png" />
+        </div>
+        <a href="mailto:park@jamong.one" target="_blank">
+            <div class="overlap-6">
+            <div class="text-wrapper-12">Mail</div>
+            <div class="text-wrapper-13">park@jamong.one</div>
+            <img class="image-4" src="img/image 5.png" />
+            </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

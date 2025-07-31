@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background: linear-gradient(
+    180deg,
+    rgba(42, 64, 55, 1) 0%,
+    rgba(36, 36, 36, 1) 36%
+  );
+  width: 393px;
+  height: 852px;
+  position: relative;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 327px;
+  height: 443px;
+  top: 70px;
+  left: 33px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 327px;
+  height: 315px;
+  top: 118px;
+  left: 0;
+  border-radius: 40px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 47, 139, 0.3) 0%,
+    rgba(52, 52, 52, 0.3) 91%
+  );
+}
+
+.frame .img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 64px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 137px;
+  top: 207px;
+  left: 104px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 137px;
+  top: 236px;
+  left: 96px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #828282;
+  font-size: 10px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .daegu-univ-STAR {
+  position: absolute;
+  width: 270px;
+  top: 282px;
+  left: 29px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #c5c5c5;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .span {
+  letter-spacing: 0.06px;
+}
+
+.frame .text-wrapper-3 {
+  font-size: 7px;
+  letter-spacing: 0.03px;
+}
+
+.frame .security-researcher {
+  position: absolute;
+  width: 270px;
+  top: 314px;
+  left: 29px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #c5c5c5;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .element {
+  position: absolute;
+  width: 270px;
+  top: 347px;
+  left: 30px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #c5c5c5;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 270px;
+  top: 399px;
+  left: 30px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #c5c5c5;
+  font-size: 5px;
+  text-align: center;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 190px;
+  height: 96px;
+  top: 535px;
+  left: 34px;
+  border-radius: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(64, 61, 61, 1) 0%,
+    rgba(36, 36, 36, 1) 100%
+  );
+}
+
+.frame .image {
+  width: 49px;
+  height: 49px;
+  top: 12px;
+  left: 15px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  width: 137px;
+  top: 47px;
+  left: 16px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-6 {
+  top: 58px;
+  left: 16px;
+  position: absolute;
+  width: 62px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 4px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 326px;
+  height: 96px;
+  top: 640px;
+  left: 34px;
+  border-radius: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(221, 42, 123, 1) 0%,
+    rgba(134, 8, 65, 1) 100%
+  );
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 138px;
+  height: 80px;
+  top: 12px;
+  left: 15px;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  width: 137px;
+  top: 35px;
+  left: 1px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-8 {
+  top: 46px;
+  left: 1px;
+  position: absolute;
+  width: 62px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 4px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .image-2 {
+  width: 49px;
+  height: 49px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .overlap-4 {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  top: 22px;
+  left: 72px;
+}
+
+.frame .rectangle-2 {
+  position: absolute;
+  width: 46px;
+  height: 13px;
+  top: 4px;
+  left: 0;
+  background-color: #dddddd;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.frame .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #493939;
+  font-size: 4px;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.frame .overlap-5 {
+  position: absolute;
+  width: 152px;
+  height: 96px;
+  top: 535px;
+  left: 235px;
+}
+
+.frame .rectangle-3 {
+  position: absolute;
+  width: 125px;
+  height: 96px;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(87, 101, 235, 1) 0%,
+    rgba(53, 64, 105, 1) 100%
+  );
+}
+
+.frame .text-wrapper-10 {
+  position: absolute;
+  width: 137px;
+  top: 47px;
+  left: 15px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-11 {
+  top: 58px;
+  left: 15px;
+  position: absolute;
+  width: 62px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 4px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .image-3 {
+  width: 63px;
+  height: 63px;
+  top: 5px;
+  left: 3px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .overlap-6 {
+  position: absolute;
+  width: 327px;
+  height: 96px;
+  top: 745px;
+  left: 33px;
+  border-radius: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 28, 116, 1) 0%,
+    rgba(13, 25, 69, 1) 100%
+  );
+}
+
+.frame .text-wrapper-12 {
+  position: absolute;
+  width: 137px;
+  top: 47px;
+  left: 17px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-13 {
+  position: absolute;
+  width: 100px;
+  top: 58px;
+  left: 17px;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 4px;
+  letter-spacing: 0.40px;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.frame .image-4 {
+  width: 49px;
+  height: 33px;
+  top: 20px;
+  left: 16px;
+  position: absolute;
+  object-fit: cover;
+}
